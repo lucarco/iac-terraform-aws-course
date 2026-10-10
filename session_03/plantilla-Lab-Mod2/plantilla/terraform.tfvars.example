@@ -1,0 +1,6 @@
+identificador_alumno = "ana_garcia"
+
+correos = [
+  "ana@ejemplo.com",
+  "juanmarinom@gmail.com",
+]
