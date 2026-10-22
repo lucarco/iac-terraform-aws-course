@@ -1,0 +1,10 @@
+# Mismo contenido que terraform.tfvars, con un alumno de ejemplo.
+
+# Identificador del usuario IAM, sin el prefijo ucm-.
+identificador_alumno = "ana_garcia"
+
+# ucm- más el identificador con guiones, más -menus.
+bucket_datos = "ucm-ana-garcia-menus"
+
+# Correo del aviso. SNS pide confirmar la suscripción.
+correo_aviso = "ana@ejemplo.com"

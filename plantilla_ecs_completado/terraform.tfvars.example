@@ -1,0 +1,13 @@
+# Copia este fichero a terraform.tfvars y cambia los tres valores.
+# Terraform carga terraform.tfvars solo. No hace falta -var-file.
+
+# Usuario IAM sin el prefijo ucm-. El guion bajo se queda.
+# Usuario ucm-ana_garcia → ana_garcia
+identificador_alumno = "ana_garcia"
+
+# ucm- + el identificador con guiones + -menus.
+# ana_garcia → ucm-ana-garcia-menus
+bucket_datos = "ucm-ana-garcia-menus"
+
+# Correo real. En el bloque 2, SNS envía un enlace de confirmación.
+correo_aviso = "ana@ejemplo.com"

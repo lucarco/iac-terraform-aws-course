@@ -48,7 +48,6 @@ moved {
 }
 
 # ==================================
-
 # Ejercicio 3
 data "archive_file" "reloj" {
   type        = "zip"

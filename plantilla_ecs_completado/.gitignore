@@ -1,0 +1,29 @@
+# Directorio local de plugins y módulos
+.terraform/
+
+.terraform.lock.hcl
+
+# Archivos de estado (nunca subirlos a Git)
+*.tfstate
+*.tfstate.*
+
+# Lo genera archive_file al planificar.
+*.zip
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Valores reales de variables (pueden contener datos sensibles)
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Overrides locales
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+__pycache__/
+*.pyc
